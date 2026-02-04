@@ -198,13 +198,13 @@ export default function Index() {
 
           {/* Social Links */}
           <div className="flex justify-center gap-6 pt-8">
-            <a href="#" className="p-3 bg-secondary rounded-full hover:bg-accent hover:text-accent-foreground transition-all">
+            <a href="https://github.com/ishant-rgb-hub" target="_blank" rel="noopener noreferrer" className="p-3 bg-secondary rounded-full hover:bg-accent hover:text-accent-foreground transition-all">
               <Github size={20} />
             </a>
-            <a href="#" className="p-3 bg-secondary rounded-full hover:bg-accent hover:text-accent-foreground transition-all">
+            <a href="http://linkedin.com/in/ishant-yadav-922b1b38b/" target="_blank" rel="noopener noreferrer" className="p-3 bg-secondary rounded-full hover:bg-accent hover:text-accent-foreground transition-all">
               <Linkedin size={20} />
             </a>
-            <a href="#" className="p-3 bg-secondary rounded-full hover:bg-accent hover:text-accent-foreground transition-all">
+            <a href="mailto:ishant@example.com" className="p-3 bg-secondary rounded-full hover:bg-accent hover:text-accent-foreground transition-all">
               <Mail size={20} />
             </a>
           </div>
