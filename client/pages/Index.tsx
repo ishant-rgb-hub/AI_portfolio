@@ -483,7 +483,7 @@ export default function Index() {
             <div>
               <h3 className="font-bold text-lg mb-4">Contact</h3>
               <ul className="space-y-2 text-sm opacity-80">
-                <li><a href="mailto:alex@example.com" className="hover:opacity-100 transition-opacity">alex@example.com</a></li>
+                <li><a href="mailto:ishant@example.com" className="hover:opacity-100 transition-opacity">ishant@example.com</a></li>
                 <li><span>San Francisco, CA</span></li>
               </ul>
             </div>
