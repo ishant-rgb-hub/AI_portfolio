@@ -134,9 +134,12 @@ export default function Index() {
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
           <div className="space-y-4">
             <h1 className="text-5xl sm:text-7xl font-bold font-serif">
-              Hi, I'm <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Alex Chen
-              </span>
+              <div style={{ marginRight: "200px" }}>
+                <p>Hi, I'm Ishant</p>
+              </div>
+              <div className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                <p>Ishant</p>
+              </div>
             </h1>
             <p className="text-xl sm:text-2xl text-muted-foreground font-light">
               First-year student passionate about design, development, and creating digital experiences
