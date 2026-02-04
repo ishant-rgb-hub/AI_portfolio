@@ -12,6 +12,7 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
+    /* Light mode colors */
     --background: 0 0% 100%;
     --foreground: 210 12% 16%;
 
@@ -21,18 +22,19 @@
     --popover: 0 0% 100%;
     --popover-foreground: 210 12% 16%;
 
-    /* Modern blue gradient accent - main brand color */
-    --primary: 210 100% 50%;
+    /* Vibrant blue primary */
+    --primary: 217 92% 52%;
     --primary-foreground: 0 0% 100%;
 
-    /* Soft neutral accent */
-    --secondary: 210 20% 92%;
+    /* Light purple secondary */
+    --secondary: 260 84% 92%;
     --secondary-foreground: 210 12% 16%;
 
     --muted: 210 10% 90%;
     --muted-foreground: 210 8% 50%;
 
-    --accent: 280 100% 50%;
+    /* Vibrant purple accent */
+    --accent: 280 85% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -40,18 +42,18 @@
 
     --border: 210 15% 91%;
     --input: 210 15% 97%;
-    --ring: 210 100% 50%;
+    --ring: 217 92% 52%;
 
     --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 210 12% 16%;
-    --sidebar-primary: 210 100% 50%;
+    --sidebar-primary: 217 92% 52%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 280 100% 50%;
+    --sidebar-accent: 280 85% 50%;
     --sidebar-accent-foreground: 0 0% 100%;
     --sidebar-border: 210 15% 91%;
-    --sidebar-ring: 210 100% 50%;
+    --sidebar-ring: 217 92% 52%;
   }
 
   .dark {
