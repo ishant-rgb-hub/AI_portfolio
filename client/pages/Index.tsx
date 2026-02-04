@@ -94,6 +94,22 @@ export default function Index() {
               <a href="#contact" className="text-sm font-medium hover:text-primary transition-colors">
                 Contact
               </a>
+              {mounted && (
+                <button
+                  onClick={toggleTheme}
+                  className="flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors"
+                >
+                  {theme === "light" ? (
+                    <>
+                      <Moon size={18} /> Dark Mode
+                    </>
+                  ) : (
+                    <>
+                      <Sun size={18} /> Light Mode
+                    </>
+                  )}
+                </button>
+              )}
               <button
                 onClick={() => {
                   setAuthModalOpen(true);
