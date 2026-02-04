@@ -49,6 +49,15 @@ export default function Index() {
             <a href="#contact" className="text-sm font-medium hover:text-primary transition-colors">
               Contact
             </a>
+            {mounted && (
+              <button
+                onClick={toggleTheme}
+                className="p-2 hover:bg-secondary rounded-lg transition-colors"
+                aria-label="Toggle theme"
+              >
+                {theme === "light" ? <Moon size={20} /> : <Sun size={20} />}
+              </button>
+            )}
             <button
               onClick={() => setAuthModalOpen(true)}
               className="px-6 py-2 bg-primary text-primary-foreground rounded-lg font-medium hover:opacity-90 transition-all"
