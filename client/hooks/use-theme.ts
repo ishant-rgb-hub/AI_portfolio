@@ -11,7 +11,9 @@ export function useTheme() {
     const stored = localStorage.getItem("theme") as Theme | null;
     const initial =
       stored ||
-      (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      (window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light");
 
     setTheme(initial);
     applyTheme(initial);
