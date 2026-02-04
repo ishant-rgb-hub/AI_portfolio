@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Menu, X, Github, Linkedin, Mail, ExternalLink, Code2, Award, BookOpen, Briefcase, Send } from "lucide-react";
+import { Menu, X, Github, Linkedin, Mail, ExternalLink, Code2, Award, BookOpen, Briefcase, Send, Sun, Moon } from "lucide-react";
+import { useTheme } from "@/hooks/use-theme";
 
 export default function Index() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
