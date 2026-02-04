@@ -27,7 +27,7 @@ export default function Index() {
       >
         <nav className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
           <a href="#" className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Portfolio
+            Ishant
           </a>
 
           {/* Desktop Menu */}
