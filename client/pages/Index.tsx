@@ -6,6 +6,7 @@ export default function Index() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [authModalOpen, setAuthModalOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const { theme, toggleTheme, mounted } = useTheme();
 
   // Handle scroll for navbar effect
   const handleScroll = () => {
