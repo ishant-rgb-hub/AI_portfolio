@@ -297,13 +297,13 @@ export default function Index() {
           <div className="space-y-8">
             {[
               {
-                school: "University of California, Berkeley",
+                school: "Newton School of Technology",
                 program: "Bachelor of Science in Computer Science",
                 year: "2024 - Present",
-                highlights: ["GPA: 3.8/4.0", "Dean's List", "Relevant Coursework: Web Development, UI/UX Design"],
+                highlights: ["GPA: 8.8/10", "Dean's List", "Relevant Coursework: Web Development, UI/UX Design"],
               },
               {
-                school: "Lincoln High School",
+                school: "RPS Public school",
                 program: "High School Diploma with Honors",
                 year: "2020 - 2024",
                 highlights: ["Valedictorian", "AP Computer Science A (5)", "President of Coding Club"],
