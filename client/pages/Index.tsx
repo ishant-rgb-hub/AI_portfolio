@@ -135,10 +135,14 @@ export default function Index() {
           <div className="space-y-4">
             <h1 className="text-5xl sm:text-7xl font-bold font-serif">
               <div style={{ marginRight: "200px" }}>
-                <p>Hi, I'm Ishant</p>
+                <div>
+                  <p>Hi, I'm </p>
+                </div>
               </div>
               <div className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                <p>Ishant</p>
+                <div>
+                  Ishant
+                </div>
               </div>
             </h1>
             <p className="text-xl sm:text-2xl text-muted-foreground font-light">
