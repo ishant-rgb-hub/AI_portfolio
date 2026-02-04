@@ -435,13 +435,13 @@ export default function Index() {
               <p className="text-center text-muted-foreground mb-6">Or connect with me directly:</p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <a
-                  href="mailto:alex@example.com"
+                  href="mailto:ishant@example.com"
                   className="flex items-center justify-center gap-3 p-4 bg-background border border-border rounded-lg hover:border-primary hover:bg-primary/5 transition-all"
                 >
                   <Mail className="text-primary" size={20} />
                   <div className="text-left">
                     <p className="text-xs text-muted-foreground">Email</p>
-                    <p className="font-semibold">alex@example.com</p>
+                    <p className="font-semibold">ishant@example.com</p>
                   </div>
                 </a>
                 <a
