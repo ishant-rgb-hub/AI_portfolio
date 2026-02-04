@@ -490,8 +490,8 @@ export default function Index() {
           </div>
 
           <div className="border-t border-background/20 pt-8 text-center text-sm opacity-80">
-            <p>© 2024 Alex Chen. All rights reserved.</p>
-            <p className="mt-2">Designed & built by Alex Chen</p>
+            <p>© 2024 Ishant. All rights reserved.</p>
+            <p className="mt-2">Designed & built by Ishant</p>
           </div>
         </div>
       </footer>
